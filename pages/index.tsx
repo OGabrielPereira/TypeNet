@@ -13,10 +13,21 @@ const Home: NextPage = () => {
             className="flex p-4 pl-6 w-60 text-sm rounded border text-white bg-black"
             placeholder="Endereço IP"
             />
-          <button
+          <select
             className="bg-black border text-white text-sm rounded flex justify-center items-center p-2.5"
-            >
-        </button>
+            > 
+            <option>CIDR</option>
+            <option>/24</option>
+            <option>/25</option>
+            <option>/26</option>  
+            <option>/27</option>
+            <option>/28</option>
+            <option>/29</option>
+            <option>/30</option>
+            <option>/31</option>
+
+
+        </select>
 
       </div>
     </div>
